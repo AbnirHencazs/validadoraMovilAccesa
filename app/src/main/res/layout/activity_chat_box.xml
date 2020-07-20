@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aymen.androidchat.ChatBoxActivity">
+
+
+
+
+
+        <View
+            android:layout_marginTop="5mm"
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@android:color/darker_gray"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messagelist"
+        android:layout_width="166dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:layout_weight="3"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:visibility="invisible" />
+
+
+    <EditText
+
+        android:id="@+id/message"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginBottom="423dp"
+        android:layout_weight="3"
+        android:hint="Presiona para validar."
+        android:textSize="10sp"
+        android:visibility="invisible" />
+
+    <Button
+
+        android:id="@+id/send"
+        android:layout_width="182dp"
+        android:layout_height="89dp"
+        android:layout_alignEnd="@+id/message"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="318dp"
+        android:background="@android:color/darker_gray"
+        android:text="VALIDAR"
+        android:layout_alignRight="@+id/message"
+        android:layout_marginRight="-4dp" />
+
+    <TextView
+        android:id="@+id/etTituloConvenio2"
+        android:layout_width="172dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="221dp"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="28dp"
+        app:srcCompat="@drawable/ilustracion" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="243dp"
+        android:layout_height="212dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/loadingpng" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/messagelist"
+        android:layout_marginBottom="132dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvIsConnected2"
+        android:layout_width="246dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/etTituloConvenio2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp" />
+
+</RelativeLayout>

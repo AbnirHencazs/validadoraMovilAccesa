@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">          axes</string>
+    <string name="user">User</string>
+
+    <string name="name2">Name2</string>
+    <string name="password">Password</string>
+    <string name="nombre_estacionamiento">Nombre Estacionamiento</string>
+    <string name="convenio">Convenio</string>
+    <string name="ingrese_datos">Ingrese Datos</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="_1">No.ID</string>
+    <string name="_2">No.ID</string>
+    <string name="nickname">Nickname :</string>
+    <string name="message">message</string>
+</resources>
