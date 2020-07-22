@@ -31,16 +31,16 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        Usuario         = (EditText)findViewById(R.id.etUsuario2);
-        Password        = (EditText)findViewById(R.id.etDatoclave) ;
-        Estacionamiento = (EditText)findViewById(R.id.etEstacionamiento2);
-        IdEst           = (EditText)findViewById(R.id.etIdEstacion2);
-        Convenio        = (EditText)findViewById(R.id.etConvenio2);
-        IdConv          = (EditText)findViewById(R.id.etIdConvenio2);
-        Avisos          = (TextView)findViewById(R.id.etAvisos2);
-        Guardar         = (Button)findViewById(R.id.etGuardar2);
+//        Usuario         = (EditText)findViewById(R.id.etUsuario2);
+//        Password        = (EditText)findViewById(R.id.etDatoclave) ;
+//        Estacionamiento = (EditText)findViewById(R.id.etEstacionamiento2);
+//        IdEst           = (EditText)findViewById(R.id.etIdEstacion2);
+//        Convenio        = (EditText)findViewById(R.id.etConvenio2);
+//        IdConv          = (EditText)findViewById(R.id.etIdConvenio2);
+//        Avisos          = (TextView)findViewById(R.id.etAvisos2);
+//        Guardar         = (Button)findViewById(R.id.etGuardar2);
 
-/*
+
         Usuario         = (EditText)findViewById(R.id.etUsuario);
         Password        = (EditText)findViewById(R.id.etPassword) ;
         Estacionamiento = (EditText)findViewById(R.id.etEstacionamiento);
@@ -49,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         IdConv          = (EditText)findViewById(R.id.etIdConvenio);
         Avisos          = (TextView)findViewById(R.id.etAvisos);
         Guardar         = (Button)findViewById(R.id.etGuardar);
-*/
+
         if (readSharePreferencesStatusApp()){
             Intent intent = new Intent(LoginActivity.this,MainActivity.class);
             startActivity(intent);

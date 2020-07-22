@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
             vistaescaner.stopCamera();
             nickname = (EditText) findViewById(R.id.nickname);
            // if (codigodebarras.length()==16) {
-                if(codigodebarras.length()==23 || codigodebarras.length()==16){
+                if(codigodebarras.length()==23 || codigodebarras.length()==16 || codigodebarras.length()==14 ){
                 try {
                     // get JSONObject from JSON file
                     JSONObject obj = new JSONObject();

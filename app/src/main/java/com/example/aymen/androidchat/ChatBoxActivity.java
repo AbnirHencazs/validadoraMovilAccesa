@@ -129,7 +129,8 @@ public class ChatBoxActivity extends AppCompatActivity{
 
         try {
 
-           socket = IO.socket("http://192.168.1.96:8082");
+           ///socket = IO.socket("http://192.168.1.96:8082");
+            socket = IO.socket("http://198.251.65.118:8082");
           //  socket = IO.socket("https://websocketpic.azurewebsites.net/");
            // socket = IO.socket("http://accesawork.ddns.net:8083");
             socket.connect();
